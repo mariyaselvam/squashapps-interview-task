@@ -1,0 +1,122 @@
+@media(max-width:600px){
+    body{
+        font-size: 15px;
+    }
+    .landing-sec-row{
+        flex-direction: column;
+    }
+    .nav-options{
+        display: none;
+    }
+    .costamur-card{
+        flex-direction: column;
+    }
+    .find-property-by-row-1{
+        flex-direction: column;
+    }
+    .Our-Exclusive-Agents-tit , .blog-sec-tit , .find-property-by-city-tit{
+        text-align: center;
+    }
+    .blog-cards{
+        margin-bottom: 2rem;
+    }
+    .how-we-can-help-card-img img{
+        object-fit: cover;
+    }
+    .how-we-can-help-sec-card{
+        margin: 0rem auto 2rem;
+        width: 75%;
+    }
+    .landing-sec-tit-nd-para-warp{
+        width: 100%;
+        padding: 3rem 2rem;
+    }
+    .landing-page-sec{
+        height: auto;
+        overflow-x: hidden;
+    }
+    .why-chos-us-inner-card{
+        margin-bottom: 2rem;
+    }
+    .landing-form-card{
+        width: 80%;
+        margin: 0rem auto;
+    }
+
+    .landing-from-body{
+        width: 90%;
+        margin: 1rem auto;
+    }
+    .about-us-sec{
+        height: auto;
+        position: relative;
+    }
+
+    .about-us-sec::before{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        top: 0px;
+        left: 0px;
+        opacity: 0.3;
+        z-index: 1;
+    }
+    .about-us-contant-card{
+        color: white;
+    }
+    .happy-customer-card{
+        margin-bottom: 2rem;
+    }
+   
+    .list-of-sevices-topcard > div{
+        margin: 1rem;
+    }
+
+    .landing-from-head span{
+      padding: 0rem;
+    }
+
+    .Our-Exclusive-Agents-card{
+        margin:1rem 2rem;
+        padding: 1rem 1rem;
+    }
+    .footer-row{
+        grid-template-columns: 100%;
+        row-gap: 30px;
+    }
+    .find-property-by-city-tit, .Our-Exclusive-Agents-tit, .blog-sec-tit, .WhatOurClientSays-tit{
+        text-align: center;
+    }
+    .get-start{
+        width: 112px;
+        height: 40px;
+    }
+    .likes::before, .cmments::before{
+        left: -30px;
+    }
+    h1{
+        line-height: 44px;
+    }
+    .quick-likes li{
+        margin: 10px 0px 0px 20px;
+        font-size: 15px;
+    }
+    .footer-news-letter{
+        gap: 20px;
+    }
+    .footer-contact{
+        gap: 20px;
+        font-size: 15px;
+    }
+    .find-property-by-city-tit, .Our-Exclusive-Agents-tit, .blog-sec-tit, .WhatOurClientSays-tit{
+        font-size: 34px;
+    }
+    .New-York, .Select-Property, .Select-Rooms{
+        width: 100%;
+    }
+    .find-property-img > img{
+        width: 100%;
+    }
+}

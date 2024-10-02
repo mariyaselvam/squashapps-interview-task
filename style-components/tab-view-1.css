@@ -1,0 +1,26 @@
+@media (max-width:1024px){
+    .why-chos-us-inner-card{
+        margin-bottom: 2rem;
+    }
+    .landing-from-head{
+        padding: 0px;
+    }
+    .landing-form-card{
+        height: 600px;
+    }
+    .landing-form-card{
+        padding: 0px;
+    }
+    .landing-from-body{
+        padding: 2rem 2rem 0px;
+    }
+    .costamur-card{
+        margin-top: 2rem;
+    }
+    .about-us-sec{
+        height: auto;
+    }
+    .blog-cards{
+        margin-bottom: 2rem;
+    }
+}

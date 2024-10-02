@@ -1,0 +1,26 @@
+@media (max-width:1280px){
+    .footer-row{
+        grid-template-columns: 35% 20% 35%;
+        column-gap: 5%;
+    }
+    .footer-sec .container{
+        width: 100%;
+    }
+    .room-options > div{
+        display: grid;
+        place-content: center;
+    }
+    .costamur-card{
+        flex-direction: column;
+    }
+    .why-chos-us-inner-card{
+        margin-bottom: 2rem;
+    }
+    .blog-card-img img{
+        width: 100%;
+    }
+    .blog-cards{
+        margin-bottom: 2rem;
+    }
+}
+
