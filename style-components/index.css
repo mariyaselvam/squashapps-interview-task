@@ -5,7 +5,6 @@ body{
     font-weight: 400;
     line-height: 26px;
     text-align: left;
-    
 }
 
 img{
@@ -30,11 +29,14 @@ h1{
     font-size: 54px;
     font-weight: 700;
     line-height: 64px;
-    
 }
 
 .landing-from-body{
   height: fit-content;
+}
+
+.get-start , .form-get-start, .landing-page-sec{
+    display: grid;
 }
 
  .get-start{
@@ -42,7 +44,6 @@ h1{
     width: 142px;
     height: 50px;
     background-color: #C82021;
-    display: grid;
     border-radius: 10px;
     place-content: center;
     color: white;
@@ -61,7 +62,6 @@ h1{
     width: 142px;
     height: 50px;
     background-color: #C82021;
-    display: grid;
     border-radius: 10px;
     place-content: center;
    color: white;
@@ -94,7 +94,6 @@ h1{
     color: white;
     height: 780px;
     padding: 2rem 0rem;
-    display: grid;
     place-content: center;
     background-repeat: no-repeat;
     background-position: center;
@@ -147,12 +146,12 @@ h1{
     text-align: center;
     border-bottom:1px solid #BBBBBB ;
 }
-.landing-from-head span{
+section .landing-from-head span{
     width: 50%;
     border-bottom: 3px solid transparent;
     padding-bottom:1.5rem ;
     transition: 0.6s ease;
-    margin: 0rem 2rem;
+    margin: 0rem 2rem ;
 }
 
 .landing-from-head span:hover{
@@ -206,6 +205,8 @@ h1{
     background-color: #EEEEEE;
     border: none;
     height: 59px;
+    width: 100%;
+    margin-bottom: 1rem;
     border-radius: 10px;
     padding: 1rem 2rem;
     display: block;
@@ -301,7 +302,7 @@ h1{
 }
 
 .why-chooss-us-btn::before{
-    content: "";
+  content: "";
   position: absolute;
   background: url("../src/assets/why-choos-us/Vector.png");
   width: 20px;
@@ -348,7 +349,6 @@ h1{
     left: 70%;
     width: 1050px;
     height: 100%;
-    /* height: 100%; */
     background: url("../src/assets/about-us/about-us-main.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -360,8 +360,7 @@ h1{
     font-size: 44px;
     font-weight: 600;
     line-height: 54px;
-    text-align: left;
-    
+    text-align: left; 
 }
 
 .abt-btn{
@@ -372,10 +371,10 @@ h1{
     display: grid;
     border-radius: 10px;
     place-content: center;
-   color: white;
-   margin-top: 2rem;
-   transition: 0.5s;
-   border: 1px solid transparent;
+    color: white;
+    margin-top: 2rem;
+    transition: 0.5s;
+    border: 1px solid transparent;
 }
 
 .abt-btn:hover{
@@ -396,7 +395,6 @@ h1{
     font-size: 40px;
     font-weight: 400;
     line-height: 50px;
-    
 }
 
 .expreance-projects-previus{
@@ -429,14 +427,42 @@ h1{
 
 .list-of-sevices-topcard{
     text-align: center;
-    /* display: flex; */
+    display: flex;
+    justify-content: center;
     gap: 20px;
     margin: 0rem auto;
+    border: none;
 }
 
 .list-of-sevices-topcard > div{
     display: inline-block;
     margin: 3rem 1rem;
+    border: none !important;
+    color: black;
+}
+
+.nav-tabs .nav-link{
+    padding: 0rem;
+    margin: 1rem 1rem ;
+    border: none;
+    color: black;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 2rem;
+    margin: 1rem auto 0rem;
+}
+
+.nav-tabs .nav-link:hover{
+   border-bottom: 2px solid #C82021;
+}
+
+.how-we-can-help-sec .nav-tabs .nav-link{
+    padding: 0rem;
+    margin: 3rem 1rem;
+    border: none;
+}
+
+.nav-tabs .nav-link:hover{
+    color: #C82021;
 }
 
 .list-of-sevices-topcard > div:hover img{
@@ -456,7 +482,6 @@ h1{
     line-height: 34px;
     text-align: left;
     margin-top: 1.4rem;
-    
 }
 
 .room-options{
@@ -464,6 +489,7 @@ h1{
     grid-template-columns: 33.3% 33.3% 33.3%;
     margin: 1rem 0rem;
     text-align: left;
+    font-size: 13px;
 }
 
 .room-options > div{
@@ -533,6 +559,12 @@ h1{
     font-size: 40px;
     font-weight: 600;
     line-height: 50px;
+    /* width: 90%; */
+}
+
+.happy-customer-tit::before{
+    content: "";
+    position: absolute;
 }
 
 .h-c-1::before{
@@ -766,7 +798,6 @@ h1{
     font-size: 24px;
     font-weight: 600;
     line-height: 34px;
-    
 }
 
 .quick-likes{
@@ -912,8 +943,6 @@ h1{
     transform: translate(-50% , -50%);
 }
 
-
-
 .swiper-button-next{
     background: url("../src/assets/testimonial/next.png") ;
 }
@@ -932,5 +961,18 @@ h1{
 
 .swiper-button-prev::after, .swiper-button-next::after{
     display: none !important;
+}
+
+.happy-customer-tit-warper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.happy-customer-tit-warper > *{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 50px;
+    margin: 0.2rem 0rem;
 }
 

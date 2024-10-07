@@ -32,51 +32,44 @@ const HowWeCanHelp = () => {
     How we can help?
     </h3>
 
-     <div className="list-of-sevices-topcard">
-        <div>
+     <div className="list-of-sevices-topcard nav nav-tabs" id="nav-tab" role="tablist">
+        <div className="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">
             <img src={ListOfSevices1} alt="" />
             <p>House</p>
         </div>
-        <div>
+        <div className="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">
             <img src={ListOfSevices2} alt="" />
             <p>Apartment</p>
         </div>
-        <div>
+        <div className="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">
             <img src={ListOfSevices3} alt="" />
             <p>Beach House</p>
         </div>
-        <div>
+        <div className="nav-link" id="nav-cabins-tab" data-bs-toggle="tab" data-bs-target="#nav-cabins" type="button" role="tab" aria-controls="nav-cabins" aria-selected="false">
             <img src={ListOfSevices4} alt="" />
             <p>Cabins</p>
         </div>
-        <div>
+        <div className="nav-link" id="nav-treehouse-tab" data-bs-toggle="tab" data-bs-target="#nav-treehouse" type="button" role="tab" aria-controls="nav-treehouse" aria-selected="false">
             <img src={ListOfSevices5} alt="" />
             <p>Tree House</p>
         </div>
-        <div>
+        <div className="nav-link" id="nav-poolhouse-tab" data-bs-toggle="tab" data-bs-target="#nav-poolhouse" type="button" role="tab" aria-controls="nav-poolhouse" aria-selected="false">
             <img src={ListOfSevices6} alt="" />
             <p>Pool House</p>
         </div>
-        <div>
+        <div className="nav-link" id="nav-lakefront-tab" data-bs-toggle="tab" data-bs-target="#nav-lakefront" type="button" role="tab" aria-controls="nav-lakefront" aria-selected="false">
             <img src={ListOfSevices7} alt="" />
             <p>Lakefront</p>
         </div>
-        <div>
+        <div className="nav-link" id="nav-farmhouse-tab" data-bs-toggle="tab" data-bs-target="#nav-farmhouse" type="button" role="tab" aria-controls="nav-farmhouse" aria-selected="false">
             <img src={ListOfSevices8} alt="" />
             <p>Farm House</p>
         </div>
 
-        {/* <img src={img1} alt="" />
-        <img src={img2} alt="" />
-        <img src={img3} alt="" />
-        <img src={img4} alt="" />
-        <img src={img5} alt="" />
-        <img src={img6} alt="" />
-        <img src={img7} alt="" />
-        <img src={img8} alt="" /> */}
      </div>
-      <div className="container">
-         <div className="row justify-content-center">
+      <div className="container tab-content" id="nav-tabContent">
+         <div className="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+         <div className="row justify-content-center ">
             <div className="col-lg-3 col-md-4">
                 <div className="how-we-can-help-sec-card">
                 <div className="how-we-can-help-card-img">
@@ -261,6 +254,1323 @@ const HowWeCanHelp = () => {
 
                 </div>
             </div>
+         </div>
+         </div>
+         <div className="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+         <div className="row justify-content-center ">
+            <div className="col-lg-3 col-md-4">
+                <div className="how-we-can-help-sec-card">
+                <div className="how-we-can-help-card-img">
+                    <img src={howWeCanHelpCardimg1} alt="" />
+                </div>
+
+                <span className="card-price">
+                $1,199,000
+                </span>
+
+                <div className="room-options">
+                    <div className="bed">4 bed</div>
+                    <div className="bath">2 bath</div>
+                    <div className="sqft">1,500 sqft</div>
+                </div>
+
+                <div className="how-we-can-help-addresss">
+                2464 Royal Ln. Mesa, New Jersey 45463
+                </div>
+
+
+                </div>
+            </div>
+            <div className="col-lg-3 col-md-4">
+                <div className="how-we-can-help-sec-card">
+                <div className="how-we-can-help-card-img">
+                    <img src={howWeCanHelpCardimg2} alt="" />
+                </div>
+
+                <span className="card-price">
+                $1,199,000
+                </span>
+
+                <div className="room-options">
+                    <div className="bed">4 bed</div>
+                    <div className="bath">2 bath</div>
+                    <div className="sqft">1,500 sqft</div>
+                </div>
+
+                <div className="how-we-can-help-addresss">
+                2464 Royal Ln. Mesa, New Jersey 45463
+                </div>
+
+
+                </div>
+            </div>
+            <div className="col-lg-3 col-md-4">
+                <div className="how-we-can-help-sec-card">
+                <div className="how-we-can-help-card-img">
+                    <img src={howWeCanHelpCardimg3} alt="" />
+                </div>
+
+                <span className="card-price">
+                $1,199,000
+                </span>
+
+                <div className="room-options">
+                    <div className="bed">4 bed</div>
+                    <div className="bath">2 bath</div>
+                    <div className="sqft">1,500 sqft</div>
+                </div>
+
+                <div className="how-we-can-help-addresss">
+                2464 Royal Ln. Mesa, New Jersey 45463
+                </div>
+
+
+                </div>
+            </div>
+            <div className="col-lg-3 col-md-4">
+                <div className="how-we-can-help-sec-card">
+                <div className="how-we-can-help-card-img">
+                    <img src={howWeCanHelpCardimg4} alt="" />
+                </div>
+
+                <span className="card-price">
+                $1,199,000
+                </span>
+
+                <div className="room-options">
+                    <div className="bed">4 bed</div>
+                    <div className="bath">2 bath</div>
+                    <div className="sqft">1,500 sqft</div>
+                </div>
+
+                <div className="how-we-can-help-addresss">
+                2464 Royal Ln. Mesa, New Jersey 45463
+                </div>
+
+
+                </div>
+            </div>
+            <div className="col-lg-3 col-md-4">
+                <div className="how-we-can-help-sec-card">
+                <div className="how-we-can-help-card-img">
+                    <img src={howWeCanHelpCardimg5} alt="" />
+                </div>
+
+                <span className="card-price">
+                $1,199,000
+                </span>
+
+                <div className="room-options">
+                    <div className="bed">4 bed</div>
+                    <div className="bath">2 bath</div>
+                    <div className="sqft">1,500 sqft</div>
+                </div>
+
+                <div className="how-we-can-help-addresss">
+                2464 Royal Ln. Mesa, New Jersey 45463
+                </div>
+
+
+                </div>
+            </div>
+            <div className="col-lg-3 col-md-4">
+                <div className="how-we-can-help-sec-card">
+                <div className="how-we-can-help-card-img">
+                    <img src={howWeCanHelpCardimg6} alt="" />
+                </div>
+
+                <span className="card-price">
+                $1,199,000
+                </span>
+
+                <div className="room-options">
+                    <div className="bed">4 bed</div>
+                    <div className="bath">2 bath</div>
+                    <div className="sqft">1,500 sqft</div>
+                </div>
+
+                <div className="how-we-can-help-addresss">
+                2464 Royal Ln. Mesa, New Jersey 45463
+                </div>
+
+
+                </div>
+            </div>
+            <div className="col-lg-3 col-md-4">
+                <div className="how-we-can-help-sec-card">
+                <div className="how-we-can-help-card-img">
+                    <img src={howWeCanHelpCardimg7} alt="" />
+                </div>
+
+                <span className="card-price">
+                $1,199,000
+                </span>
+
+                <div className="room-options">
+                    <div className="bed">4 bed</div>
+                    <div className="bath">2 bath</div>
+                    <div className="sqft">1,500 sqft</div>
+                </div>
+
+                <div className="how-we-can-help-addresss">
+                2464 Royal Ln. Mesa, New Jersey 45463
+                </div>
+
+
+                </div>
+            </div>
+            <div className="col-lg-3 col-md-4">
+                <div className="how-we-can-help-sec-card">
+                <div className="how-we-can-help-card-img">
+                    <img src={howWeCanHelpCardimg8} alt="" />
+                </div>
+
+                <span className="card-price">
+                $1,199,000
+                </span>
+
+                <div className="room-options">
+                    <div className="bed">4 bed</div>
+                    <div className="bath">2 bath</div>
+                    <div className="sqft">1,500 sqft</div>
+                </div>
+
+                <div className="how-we-can-help-addresss">
+                2464 Royal Ln. Mesa, New Jersey 45463
+                </div>
+
+
+                </div>
+            </div>
+         </div>
+         </div>
+         <div className="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+         <div className="row justify-content-center ">
+            <div className="col-lg-3 col-md-4">
+                <div className="how-we-can-help-sec-card">
+                <div className="how-we-can-help-card-img">
+                    <img src={howWeCanHelpCardimg1} alt="" />
+                </div>
+
+                <span className="card-price">
+                $1,199,000
+                </span>
+
+                <div className="room-options">
+                    <div className="bed">4 bed</div>
+                    <div className="bath">2 bath</div>
+                    <div className="sqft">1,500 sqft</div>
+                </div>
+
+                <div className="how-we-can-help-addresss">
+                2464 Royal Ln. Mesa, New Jersey 45463
+                </div>
+
+
+                </div>
+            </div>
+            <div className="col-lg-3 col-md-4">
+                <div className="how-we-can-help-sec-card">
+                <div className="how-we-can-help-card-img">
+                    <img src={howWeCanHelpCardimg2} alt="" />
+                </div>
+
+                <span className="card-price">
+                $1,199,000
+                </span>
+
+                <div className="room-options">
+                    <div className="bed">4 bed</div>
+                    <div className="bath">2 bath</div>
+                    <div className="sqft">1,500 sqft</div>
+                </div>
+
+                <div className="how-we-can-help-addresss">
+                2464 Royal Ln. Mesa, New Jersey 45463
+                </div>
+
+
+                </div>
+            </div>
+            <div className="col-lg-3 col-md-4">
+                <div className="how-we-can-help-sec-card">
+                <div className="how-we-can-help-card-img">
+                    <img src={howWeCanHelpCardimg3} alt="" />
+                </div>
+
+                <span className="card-price">
+                $1,199,000
+                </span>
+
+                <div className="room-options">
+                    <div className="bed">4 bed</div>
+                    <div className="bath">2 bath</div>
+                    <div className="sqft">1,500 sqft</div>
+                </div>
+
+                <div className="how-we-can-help-addresss">
+                2464 Royal Ln. Mesa, New Jersey 45463
+                </div>
+
+
+                </div>
+            </div>
+            <div className="col-lg-3 col-md-4">
+                <div className="how-we-can-help-sec-card">
+                <div className="how-we-can-help-card-img">
+                    <img src={howWeCanHelpCardimg4} alt="" />
+                </div>
+
+                <span className="card-price">
+                $1,199,000
+                </span>
+
+                <div className="room-options">
+                    <div className="bed">4 bed</div>
+                    <div className="bath">2 bath</div>
+                    <div className="sqft">1,500 sqft</div>
+                </div>
+
+                <div className="how-we-can-help-addresss">
+                2464 Royal Ln. Mesa, New Jersey 45463
+                </div>
+
+
+                </div>
+            </div>
+            <div className="col-lg-3 col-md-4">
+                <div className="how-we-can-help-sec-card">
+                <div className="how-we-can-help-card-img">
+                    <img src={howWeCanHelpCardimg5} alt="" />
+                </div>
+
+                <span className="card-price">
+                $1,199,000
+                </span>
+
+                <div className="room-options">
+                    <div className="bed">4 bed</div>
+                    <div className="bath">2 bath</div>
+                    <div className="sqft">1,500 sqft</div>
+                </div>
+
+                <div className="how-we-can-help-addresss">
+                2464 Royal Ln. Mesa, New Jersey 45463
+                </div>
+
+
+                </div>
+            </div>
+            <div className="col-lg-3 col-md-4">
+                <div className="how-we-can-help-sec-card">
+                <div className="how-we-can-help-card-img">
+                    <img src={howWeCanHelpCardimg6} alt="" />
+                </div>
+
+                <span className="card-price">
+                $1,199,000
+                </span>
+
+                <div className="room-options">
+                    <div className="bed">4 bed</div>
+                    <div className="bath">2 bath</div>
+                    <div className="sqft">1,500 sqft</div>
+                </div>
+
+                <div className="how-we-can-help-addresss">
+                2464 Royal Ln. Mesa, New Jersey 45463
+                </div>
+
+
+                </div>
+            </div>
+            <div className="col-lg-3 col-md-4">
+                <div className="how-we-can-help-sec-card">
+                <div className="how-we-can-help-card-img">
+                    <img src={howWeCanHelpCardimg7} alt="" />
+                </div>
+
+                <span className="card-price">
+                $1,199,000
+                </span>
+
+                <div className="room-options">
+                    <div className="bed">4 bed</div>
+                    <div className="bath">2 bath</div>
+                    <div className="sqft">1,500 sqft</div>
+                </div>
+
+                <div className="how-we-can-help-addresss">
+                2464 Royal Ln. Mesa, New Jersey 45463
+                </div>
+
+
+                </div>
+            </div>
+            <div className="col-lg-3 col-md-4">
+                <div className="how-we-can-help-sec-card">
+                <div className="how-we-can-help-card-img">
+                    <img src={howWeCanHelpCardimg8} alt="" />
+                </div>
+
+                <span className="card-price">
+                $1,199,000
+                </span>
+
+                <div className="room-options">
+                    <div className="bed">4 bed</div>
+                    <div className="bath">2 bath</div>
+                    <div className="sqft">1,500 sqft</div>
+                </div>
+
+                <div className="how-we-can-help-addresss">
+                2464 Royal Ln. Mesa, New Jersey 45463
+                </div>
+
+
+                </div>
+            </div>
+         </div>
+         </div>
+         <div className="tab-pane fade" id="nav-cabins" role="tabpanel" aria-labelledby="nav-cabins-tab">
+         <div className="row justify-content-center ">
+            <div className="col-lg-3 col-md-4">
+                <div className="how-we-can-help-sec-card">
+                <div className="how-we-can-help-card-img">
+                    <img src={howWeCanHelpCardimg1} alt="" />
+                </div>
+
+                <span className="card-price">
+                $1,199,000
+                </span>
+
+                <div className="room-options">
+                    <div className="bed">4 bed</div>
+                    <div className="bath">2 bath</div>
+                    <div className="sqft">1,500 sqft</div>
+                </div>
+
+                <div className="how-we-can-help-addresss">
+                2464 Royal Ln. Mesa, New Jersey 45463
+                </div>
+
+
+                </div>
+            </div>
+            <div className="col-lg-3 col-md-4">
+                <div className="how-we-can-help-sec-card">
+                <div className="how-we-can-help-card-img">
+                    <img src={howWeCanHelpCardimg2} alt="" />
+                </div>
+
+                <span className="card-price">
+                $1,199,000
+                </span>
+
+                <div className="room-options">
+                    <div className="bed">4 bed</div>
+                    <div className="bath">2 bath</div>
+                    <div className="sqft">1,500 sqft</div>
+                </div>
+
+                <div className="how-we-can-help-addresss">
+                2464 Royal Ln. Mesa, New Jersey 45463
+                </div>
+
+
+                </div>
+            </div>
+            <div className="col-lg-3 col-md-4">
+                <div className="how-we-can-help-sec-card">
+                <div className="how-we-can-help-card-img">
+                    <img src={howWeCanHelpCardimg3} alt="" />
+                </div>
+
+                <span className="card-price">
+                $1,199,000
+                </span>
+
+                <div className="room-options">
+                    <div className="bed">4 bed</div>
+                    <div className="bath">2 bath</div>
+                    <div className="sqft">1,500 sqft</div>
+                </div>
+
+                <div className="how-we-can-help-addresss">
+                2464 Royal Ln. Mesa, New Jersey 45463
+                </div>
+
+
+                </div>
+            </div>
+            <div className="col-lg-3 col-md-4">
+                <div className="how-we-can-help-sec-card">
+                <div className="how-we-can-help-card-img">
+                    <img src={howWeCanHelpCardimg4} alt="" />
+                </div>
+
+                <span className="card-price">
+                $1,199,000
+                </span>
+
+                <div className="room-options">
+                    <div className="bed">4 bed</div>
+                    <div className="bath">2 bath</div>
+                    <div className="sqft">1,500 sqft</div>
+                </div>
+
+                <div className="how-we-can-help-addresss">
+                2464 Royal Ln. Mesa, New Jersey 45463
+                </div>
+
+
+                </div>
+            </div>
+            <div className="col-lg-3 col-md-4">
+                <div className="how-we-can-help-sec-card">
+                <div className="how-we-can-help-card-img">
+                    <img src={howWeCanHelpCardimg5} alt="" />
+                </div>
+
+                <span className="card-price">
+                $1,199,000
+                </span>
+
+                <div className="room-options">
+                    <div className="bed">4 bed</div>
+                    <div className="bath">2 bath</div>
+                    <div className="sqft">1,500 sqft</div>
+                </div>
+
+                <div className="how-we-can-help-addresss">
+                2464 Royal Ln. Mesa, New Jersey 45463
+                </div>
+
+
+                </div>
+            </div>
+            <div className="col-lg-3 col-md-4">
+                <div className="how-we-can-help-sec-card">
+                <div className="how-we-can-help-card-img">
+                    <img src={howWeCanHelpCardimg6} alt="" />
+                </div>
+
+                <span className="card-price">
+                $1,199,000
+                </span>
+
+                <div className="room-options">
+                    <div className="bed">4 bed</div>
+                    <div className="bath">2 bath</div>
+                    <div className="sqft">1,500 sqft</div>
+                </div>
+
+                <div className="how-we-can-help-addresss">
+                2464 Royal Ln. Mesa, New Jersey 45463
+                </div>
+
+
+                </div>
+            </div>
+            <div className="col-lg-3 col-md-4">
+                <div className="how-we-can-help-sec-card">
+                <div className="how-we-can-help-card-img">
+                    <img src={howWeCanHelpCardimg7} alt="" />
+                </div>
+
+                <span className="card-price">
+                $1,199,000
+                </span>
+
+                <div className="room-options">
+                    <div className="bed">4 bed</div>
+                    <div className="bath">2 bath</div>
+                    <div className="sqft">1,500 sqft</div>
+                </div>
+
+                <div className="how-we-can-help-addresss">
+                2464 Royal Ln. Mesa, New Jersey 45463
+                </div>
+
+
+                </div>
+            </div>
+            <div className="col-lg-3 col-md-4">
+                <div className="how-we-can-help-sec-card">
+                <div className="how-we-can-help-card-img">
+                    <img src={howWeCanHelpCardimg8} alt="" />
+                </div>
+
+                <span className="card-price">
+                $1,199,000
+                </span>
+
+                <div className="room-options">
+                    <div className="bed">4 bed</div>
+                    <div className="bath">2 bath</div>
+                    <div className="sqft">1,500 sqft</div>
+                </div>
+
+                <div className="how-we-can-help-addresss">
+                2464 Royal Ln. Mesa, New Jersey 45463
+                </div>
+
+
+                </div>
+            </div>
+         </div>
+         </div>
+         <div className="tab-pane fade" id="nav-treehouse" role="tabpanel" aria-labelledby="nav-treehouse-tab">
+         <div className="row justify-content-center ">
+            <div className="col-lg-3 col-md-4">
+                <div className="how-we-can-help-sec-card">
+                <div className="how-we-can-help-card-img">
+                    <img src={howWeCanHelpCardimg1} alt="" />
+                </div>
+
+                <span className="card-price">
+                $1,199,000
+                </span>
+
+                <div className="room-options">
+                    <div className="bed">4 bed</div>
+                    <div className="bath">2 bath</div>
+                    <div className="sqft">1,500 sqft</div>
+                </div>
+
+                <div className="how-we-can-help-addresss">
+                2464 Royal Ln. Mesa, New Jersey 45463
+                </div>
+
+
+                </div>
+            </div>
+            <div className="col-lg-3 col-md-4">
+                <div className="how-we-can-help-sec-card">
+                <div className="how-we-can-help-card-img">
+                    <img src={howWeCanHelpCardimg2} alt="" />
+                </div>
+
+                <span className="card-price">
+                $1,199,000
+                </span>
+
+                <div className="room-options">
+                    <div className="bed">4 bed</div>
+                    <div className="bath">2 bath</div>
+                    <div className="sqft">1,500 sqft</div>
+                </div>
+
+                <div className="how-we-can-help-addresss">
+                2464 Royal Ln. Mesa, New Jersey 45463
+                </div>
+
+
+                </div>
+            </div>
+            <div className="col-lg-3 col-md-4">
+                <div className="how-we-can-help-sec-card">
+                <div className="how-we-can-help-card-img">
+                    <img src={howWeCanHelpCardimg3} alt="" />
+                </div>
+
+                <span className="card-price">
+                $1,199,000
+                </span>
+
+                <div className="room-options">
+                    <div className="bed">4 bed</div>
+                    <div className="bath">2 bath</div>
+                    <div className="sqft">1,500 sqft</div>
+                </div>
+
+                <div className="how-we-can-help-addresss">
+                2464 Royal Ln. Mesa, New Jersey 45463
+                </div>
+
+
+                </div>
+            </div>
+            <div className="col-lg-3 col-md-4">
+                <div className="how-we-can-help-sec-card">
+                <div className="how-we-can-help-card-img">
+                    <img src={howWeCanHelpCardimg4} alt="" />
+                </div>
+
+                <span className="card-price">
+                $1,199,000
+                </span>
+
+                <div className="room-options">
+                    <div className="bed">4 bed</div>
+                    <div className="bath">2 bath</div>
+                    <div className="sqft">1,500 sqft</div>
+                </div>
+
+                <div className="how-we-can-help-addresss">
+                2464 Royal Ln. Mesa, New Jersey 45463
+                </div>
+
+
+                </div>
+            </div>
+            <div className="col-lg-3 col-md-4">
+                <div className="how-we-can-help-sec-card">
+                <div className="how-we-can-help-card-img">
+                    <img src={howWeCanHelpCardimg5} alt="" />
+                </div>
+
+                <span className="card-price">
+                $1,199,000
+                </span>
+
+                <div className="room-options">
+                    <div className="bed">4 bed</div>
+                    <div className="bath">2 bath</div>
+                    <div className="sqft">1,500 sqft</div>
+                </div>
+
+                <div className="how-we-can-help-addresss">
+                2464 Royal Ln. Mesa, New Jersey 45463
+                </div>
+
+
+                </div>
+            </div>
+            <div className="col-lg-3 col-md-4">
+                <div className="how-we-can-help-sec-card">
+                <div className="how-we-can-help-card-img">
+                    <img src={howWeCanHelpCardimg6} alt="" />
+                </div>
+
+                <span className="card-price">
+                $1,199,000
+                </span>
+
+                <div className="room-options">
+                    <div className="bed">4 bed</div>
+                    <div className="bath">2 bath</div>
+                    <div className="sqft">1,500 sqft</div>
+                </div>
+
+                <div className="how-we-can-help-addresss">
+                2464 Royal Ln. Mesa, New Jersey 45463
+                </div>
+
+
+                </div>
+            </div>
+            <div className="col-lg-3 col-md-4">
+                <div className="how-we-can-help-sec-card">
+                <div className="how-we-can-help-card-img">
+                    <img src={howWeCanHelpCardimg7} alt="" />
+                </div>
+
+                <span className="card-price">
+                $1,199,000
+                </span>
+
+                <div className="room-options">
+                    <div className="bed">4 bed</div>
+                    <div className="bath">2 bath</div>
+                    <div className="sqft">1,500 sqft</div>
+                </div>
+
+                <div className="how-we-can-help-addresss">
+                2464 Royal Ln. Mesa, New Jersey 45463
+                </div>
+
+
+                </div>
+            </div>
+            <div className="col-lg-3 col-md-4">
+                <div className="how-we-can-help-sec-card">
+                <div className="how-we-can-help-card-img">
+                    <img src={howWeCanHelpCardimg8} alt="" />
+                </div>
+
+                <span className="card-price">
+                $1,199,000
+                </span>
+
+                <div className="room-options">
+                    <div className="bed">4 bed</div>
+                    <div className="bath">2 bath</div>
+                    <div className="sqft">1,500 sqft</div>
+                </div>
+
+                <div className="how-we-can-help-addresss">
+                2464 Royal Ln. Mesa, New Jersey 45463
+                </div>
+
+
+                </div>
+            </div>
+         </div>
+         </div>
+         <div className="tab-pane fade" id="nav-poolhouse" role="tabpanel" aria-labelledby="nav-poolhouse-tab">
+         <div className="row justify-content-center ">
+            <div className="col-lg-3 col-md-4">
+                <div className="how-we-can-help-sec-card">
+                <div className="how-we-can-help-card-img">
+                    <img src={howWeCanHelpCardimg1} alt="" />
+                </div>
+
+                <span className="card-price">
+                $1,199,000
+                </span>
+
+                <div className="room-options">
+                    <div className="bed">4 bed</div>
+                    <div className="bath">2 bath</div>
+                    <div className="sqft">1,500 sqft</div>
+                </div>
+
+                <div className="how-we-can-help-addresss">
+                2464 Royal Ln. Mesa, New Jersey 45463
+                </div>
+
+
+                </div>
+            </div>
+            <div className="col-lg-3 col-md-4">
+                <div className="how-we-can-help-sec-card">
+                <div className="how-we-can-help-card-img">
+                    <img src={howWeCanHelpCardimg2} alt="" />
+                </div>
+
+                <span className="card-price">
+                $1,199,000
+                </span>
+
+                <div className="room-options">
+                    <div className="bed">4 bed</div>
+                    <div className="bath">2 bath</div>
+                    <div className="sqft">1,500 sqft</div>
+                </div>
+
+                <div className="how-we-can-help-addresss">
+                2464 Royal Ln. Mesa, New Jersey 45463
+                </div>
+
+
+                </div>
+            </div>
+            <div className="col-lg-3 col-md-4">
+                <div className="how-we-can-help-sec-card">
+                <div className="how-we-can-help-card-img">
+                    <img src={howWeCanHelpCardimg3} alt="" />
+                </div>
+
+                <span className="card-price">
+                $1,199,000
+                </span>
+
+                <div className="room-options">
+                    <div className="bed">4 bed</div>
+                    <div className="bath">2 bath</div>
+                    <div className="sqft">1,500 sqft</div>
+                </div>
+
+                <div className="how-we-can-help-addresss">
+                2464 Royal Ln. Mesa, New Jersey 45463
+                </div>
+
+
+                </div>
+            </div>
+            <div className="col-lg-3 col-md-4">
+                <div className="how-we-can-help-sec-card">
+                <div className="how-we-can-help-card-img">
+                    <img src={howWeCanHelpCardimg4} alt="" />
+                </div>
+
+                <span className="card-price">
+                $1,199,000
+                </span>
+
+                <div className="room-options">
+                    <div className="bed">4 bed</div>
+                    <div className="bath">2 bath</div>
+                    <div className="sqft">1,500 sqft</div>
+                </div>
+
+                <div className="how-we-can-help-addresss">
+                2464 Royal Ln. Mesa, New Jersey 45463
+                </div>
+
+
+                </div>
+            </div>
+            <div className="col-lg-3 col-md-4">
+                <div className="how-we-can-help-sec-card">
+                <div className="how-we-can-help-card-img">
+                    <img src={howWeCanHelpCardimg5} alt="" />
+                </div>
+
+                <span className="card-price">
+                $1,199,000
+                </span>
+
+                <div className="room-options">
+                    <div className="bed">4 bed</div>
+                    <div className="bath">2 bath</div>
+                    <div className="sqft">1,500 sqft</div>
+                </div>
+
+                <div className="how-we-can-help-addresss">
+                2464 Royal Ln. Mesa, New Jersey 45463
+                </div>
+
+
+                </div>
+            </div>
+            <div className="col-lg-3 col-md-4">
+                <div className="how-we-can-help-sec-card">
+                <div className="how-we-can-help-card-img">
+                    <img src={howWeCanHelpCardimg6} alt="" />
+                </div>
+
+                <span className="card-price">
+                $1,199,000
+                </span>
+
+                <div className="room-options">
+                    <div className="bed">4 bed</div>
+                    <div className="bath">2 bath</div>
+                    <div className="sqft">1,500 sqft</div>
+                </div>
+
+                <div className="how-we-can-help-addresss">
+                2464 Royal Ln. Mesa, New Jersey 45463
+                </div>
+
+
+                </div>
+            </div>
+            <div className="col-lg-3 col-md-4">
+                <div className="how-we-can-help-sec-card">
+                <div className="how-we-can-help-card-img">
+                    <img src={howWeCanHelpCardimg7} alt="" />
+                </div>
+
+                <span className="card-price">
+                $1,199,000
+                </span>
+
+                <div className="room-options">
+                    <div className="bed">4 bed</div>
+                    <div className="bath">2 bath</div>
+                    <div className="sqft">1,500 sqft</div>
+                </div>
+
+                <div className="how-we-can-help-addresss">
+                2464 Royal Ln. Mesa, New Jersey 45463
+                </div>
+
+
+                </div>
+            </div>
+            <div className="col-lg-3 col-md-4">
+                <div className="how-we-can-help-sec-card">
+                <div className="how-we-can-help-card-img">
+                    <img src={howWeCanHelpCardimg8} alt="" />
+                </div>
+
+                <span className="card-price">
+                $1,199,000
+                </span>
+
+                <div className="room-options">
+                    <div className="bed">4 bed</div>
+                    <div className="bath">2 bath</div>
+                    <div className="sqft">1,500 sqft</div>
+                </div>
+
+                <div className="how-we-can-help-addresss">
+                2464 Royal Ln. Mesa, New Jersey 45463
+                </div>
+
+
+                </div>
+            </div>
+         </div>
+         </div>
+         <div className="tab-pane fade" id="nav-lakefront" role="tabpanel" aria-labelledby="nav-lakefront-tab">
+         <div className="row justify-content-center ">
+            <div className="col-lg-3 col-md-4">
+                <div className="how-we-can-help-sec-card">
+                <div className="how-we-can-help-card-img">
+                    <img src={howWeCanHelpCardimg1} alt="" />
+                </div>
+
+                <span className="card-price">
+                $1,199,000
+                </span>
+
+                <div className="room-options">
+                    <div className="bed">4 bed</div>
+                    <div className="bath">2 bath</div>
+                    <div className="sqft">1,500 sqft</div>
+                </div>
+
+                <div className="how-we-can-help-addresss">
+                2464 Royal Ln. Mesa, New Jersey 45463
+                </div>
+
+
+                </div>
+            </div>
+            <div className="col-lg-3 col-md-4">
+                <div className="how-we-can-help-sec-card">
+                <div className="how-we-can-help-card-img">
+                    <img src={howWeCanHelpCardimg2} alt="" />
+                </div>
+
+                <span className="card-price">
+                $1,199,000
+                </span>
+
+                <div className="room-options">
+                    <div className="bed">4 bed</div>
+                    <div className="bath">2 bath</div>
+                    <div className="sqft">1,500 sqft</div>
+                </div>
+
+                <div className="how-we-can-help-addresss">
+                2464 Royal Ln. Mesa, New Jersey 45463
+                </div>
+
+
+                </div>
+            </div>
+            <div className="col-lg-3 col-md-4">
+                <div className="how-we-can-help-sec-card">
+                <div className="how-we-can-help-card-img">
+                    <img src={howWeCanHelpCardimg3} alt="" />
+                </div>
+
+                <span className="card-price">
+                $1,199,000
+                </span>
+
+                <div className="room-options">
+                    <div className="bed">4 bed</div>
+                    <div className="bath">2 bath</div>
+                    <div className="sqft">1,500 sqft</div>
+                </div>
+
+                <div className="how-we-can-help-addresss">
+                2464 Royal Ln. Mesa, New Jersey 45463
+                </div>
+
+
+                </div>
+            </div>
+            <div className="col-lg-3 col-md-4">
+                <div className="how-we-can-help-sec-card">
+                <div className="how-we-can-help-card-img">
+                    <img src={howWeCanHelpCardimg4} alt="" />
+                </div>
+
+                <span className="card-price">
+                $1,199,000
+                </span>
+
+                <div className="room-options">
+                    <div className="bed">4 bed</div>
+                    <div className="bath">2 bath</div>
+                    <div className="sqft">1,500 sqft</div>
+                </div>
+
+                <div className="how-we-can-help-addresss">
+                2464 Royal Ln. Mesa, New Jersey 45463
+                </div>
+
+
+                </div>
+            </div>
+            <div className="col-lg-3 col-md-4">
+                <div className="how-we-can-help-sec-card">
+                <div className="how-we-can-help-card-img">
+                    <img src={howWeCanHelpCardimg5} alt="" />
+                </div>
+
+                <span className="card-price">
+                $1,199,000
+                </span>
+
+                <div className="room-options">
+                    <div className="bed">4 bed</div>
+                    <div className="bath">2 bath</div>
+                    <div className="sqft">1,500 sqft</div>
+                </div>
+
+                <div className="how-we-can-help-addresss">
+                2464 Royal Ln. Mesa, New Jersey 45463
+                </div>
+
+
+                </div>
+            </div>
+            <div className="col-lg-3 col-md-4">
+                <div className="how-we-can-help-sec-card">
+                <div className="how-we-can-help-card-img">
+                    <img src={howWeCanHelpCardimg6} alt="" />
+                </div>
+
+                <span className="card-price">
+                $1,199,000
+                </span>
+
+                <div className="room-options">
+                    <div className="bed">4 bed</div>
+                    <div className="bath">2 bath</div>
+                    <div className="sqft">1,500 sqft</div>
+                </div>
+
+                <div className="how-we-can-help-addresss">
+                2464 Royal Ln. Mesa, New Jersey 45463
+                </div>
+
+
+                </div>
+            </div>
+            <div className="col-lg-3 col-md-4">
+                <div className="how-we-can-help-sec-card">
+                <div className="how-we-can-help-card-img">
+                    <img src={howWeCanHelpCardimg7} alt="" />
+                </div>
+
+                <span className="card-price">
+                $1,199,000
+                </span>
+
+                <div className="room-options">
+                    <div className="bed">4 bed</div>
+                    <div className="bath">2 bath</div>
+                    <div className="sqft">1,500 sqft</div>
+                </div>
+
+                <div className="how-we-can-help-addresss">
+                2464 Royal Ln. Mesa, New Jersey 45463
+                </div>
+
+
+                </div>
+            </div>
+            <div className="col-lg-3 col-md-4">
+                <div className="how-we-can-help-sec-card">
+                <div className="how-we-can-help-card-img">
+                    <img src={howWeCanHelpCardimg8} alt="" />
+                </div>
+
+                <span className="card-price">
+                $1,199,000
+                </span>
+
+                <div className="room-options">
+                    <div className="bed">4 bed</div>
+                    <div className="bath">2 bath</div>
+                    <div className="sqft">1,500 sqft</div>
+                </div>
+
+                <div className="how-we-can-help-addresss">
+                2464 Royal Ln. Mesa, New Jersey 45463
+                </div>
+
+
+                </div>
+            </div>
+         </div>
+         </div>
+         <div className="tab-pane fade" id="nav-farmhouse" role="tabpanel" aria-labelledby="nav-farmhouse-tab">
+         <div className="row justify-content-center ">
+            <div className="col-lg-3 col-md-4">
+                <div className="how-we-can-help-sec-card">
+                <div className="how-we-can-help-card-img">
+                    <img src={howWeCanHelpCardimg1} alt="" />
+                </div>
+
+                <span className="card-price">
+                $1,199,000
+                </span>
+
+                <div className="room-options">
+                    <div className="bed">4 bed</div>
+                    <div className="bath">2 bath</div>
+                    <div className="sqft">1,500 sqft</div>
+                </div>
+
+                <div className="how-we-can-help-addresss">
+                2464 Royal Ln. Mesa, New Jersey 45463
+                </div>
+
+
+                </div>
+            </div>
+            <div className="col-lg-3 col-md-4">
+                <div className="how-we-can-help-sec-card">
+                <div className="how-we-can-help-card-img">
+                    <img src={howWeCanHelpCardimg2} alt="" />
+                </div>
+
+                <span className="card-price">
+                $1,199,000
+                </span>
+
+                <div className="room-options">
+                    <div className="bed">4 bed</div>
+                    <div className="bath">2 bath</div>
+                    <div className="sqft">1,500 sqft</div>
+                </div>
+
+                <div className="how-we-can-help-addresss">
+                2464 Royal Ln. Mesa, New Jersey 45463
+                </div>
+
+
+                </div>
+            </div>
+            <div className="col-lg-3 col-md-4">
+                <div className="how-we-can-help-sec-card">
+                <div className="how-we-can-help-card-img">
+                    <img src={howWeCanHelpCardimg3} alt="" />
+                </div>
+
+                <span className="card-price">
+                $1,199,000
+                </span>
+
+                <div className="room-options">
+                    <div className="bed">4 bed</div>
+                    <div className="bath">2 bath</div>
+                    <div className="sqft">1,500 sqft</div>
+                </div>
+
+                <div className="how-we-can-help-addresss">
+                2464 Royal Ln. Mesa, New Jersey 45463
+                </div>
+
+
+                </div>
+            </div>
+            <div className="col-lg-3 col-md-4">
+                <div className="how-we-can-help-sec-card">
+                <div className="how-we-can-help-card-img">
+                    <img src={howWeCanHelpCardimg4} alt="" />
+                </div>
+
+                <span className="card-price">
+                $1,199,000
+                </span>
+
+                <div className="room-options">
+                    <div className="bed">4 bed</div>
+                    <div className="bath">2 bath</div>
+                    <div className="sqft">1,500 sqft</div>
+                </div>
+
+                <div className="how-we-can-help-addresss">
+                2464 Royal Ln. Mesa, New Jersey 45463
+                </div>
+
+
+                </div>
+            </div>
+            <div className="col-lg-3 col-md-4">
+                <div className="how-we-can-help-sec-card">
+                <div className="how-we-can-help-card-img">
+                    <img src={howWeCanHelpCardimg5} alt="" />
+                </div>
+
+                <span className="card-price">
+                $1,199,000
+                </span>
+
+                <div className="room-options">
+                    <div className="bed">4 bed</div>
+                    <div className="bath">2 bath</div>
+                    <div className="sqft">1,500 sqft</div>
+                </div>
+
+                <div className="how-we-can-help-addresss">
+                2464 Royal Ln. Mesa, New Jersey 45463
+                </div>
+
+
+                </div>
+            </div>
+            <div className="col-lg-3 col-md-4">
+                <div className="how-we-can-help-sec-card">
+                <div className="how-we-can-help-card-img">
+                    <img src={howWeCanHelpCardimg6} alt="" />
+                </div>
+
+                <span className="card-price">
+                $1,199,000
+                </span>
+
+                <div className="room-options">
+                    <div className="bed">4 bed</div>
+                    <div className="bath">2 bath</div>
+                    <div className="sqft">1,500 sqft</div>
+                </div>
+
+                <div className="how-we-can-help-addresss">
+                2464 Royal Ln. Mesa, New Jersey 45463
+                </div>
+
+
+                </div>
+            </div>
+            <div className="col-lg-3 col-md-4">
+                <div className="how-we-can-help-sec-card">
+                <div className="how-we-can-help-card-img">
+                    <img src={howWeCanHelpCardimg7} alt="" />
+                </div>
+
+                <span className="card-price">
+                $1,199,000
+                </span>
+
+                <div className="room-options">
+                    <div className="bed">4 bed</div>
+                    <div className="bath">2 bath</div>
+                    <div className="sqft">1,500 sqft</div>
+                </div>
+
+                <div className="how-we-can-help-addresss">
+                2464 Royal Ln. Mesa, New Jersey 45463
+                </div>
+
+
+                </div>
+            </div>
+            <div className="col-lg-3 col-md-4">
+                <div className="how-we-can-help-sec-card">
+                <div className="how-we-can-help-card-img">
+                    <img src={howWeCanHelpCardimg8} alt="" />
+                </div>
+
+                <span className="card-price">
+                $1,199,000
+                </span>
+
+                <div className="room-options">
+                    <div className="bed">4 bed</div>
+                    <div className="bath">2 bath</div>
+                    <div className="sqft">1,500 sqft</div>
+                </div>
+
+                <div className="how-we-can-help-addresss">
+                2464 Royal Ln. Mesa, New Jersey 45463
+                </div>
+
+
+                </div>
+            </div>
+         </div>
          </div>
       </div>
    </section>

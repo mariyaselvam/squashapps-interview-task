@@ -52,11 +52,16 @@ const LandingSec = () => {
                 </div>
 
                 <div className="landing-form-card">
-                    <div className="landing-from-head">
-                        <span>For Sale</span>
-                        <span>For Rent</span>
+                    <div className="landing-from-head nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Profile</button>
+  </li>
                     </div>
-                   <div className="landing-from-body">
+                   <div className="tab-content" id="myTabContent">
+                   <div className="landing-from-body tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                     <input type="text" className="New-York" placeholder="New York, San Francisco, etc" />
 
                     <select name="" id="" className="Select-Property">
@@ -68,6 +73,21 @@ const LandingSec = () => {
                     </select>
 
 
+                   </div>
+
+                   <div className="landing-from-body tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                    <input type="text" className="New-York" placeholder="New York, San Francisco, etc" />
+
+                    <select name="" id="" className="Select-Property">
+                        <option value="">Select Property Type</option>
+                    </select>
+
+                    <select name="" id="" className="Select-Rooms">
+                        <option value="">Select Rooms</option>
+                    </select>
+
+
+                   </div>
                    </div>
 
                    <a href="" className="form-get-start"> 

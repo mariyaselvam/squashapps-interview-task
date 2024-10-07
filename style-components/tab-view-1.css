@@ -23,4 +23,17 @@
     .blog-cards{
         margin-bottom: 2rem;
     }
+    .nav-link{
+        margin: 1rem 1rem 0rem !important;
+    }
+    .room-options{
+        font-size: 10px;
+    }
+    .likesndcomments{
+        margin-left: 40px;
+        display: flex;
+        justify-content: end;
+        flex-direction: column;
+    }
+
 }

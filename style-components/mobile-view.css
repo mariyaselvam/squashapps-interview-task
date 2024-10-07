@@ -39,13 +39,16 @@
         margin-bottom: 2rem;
     }
     .landing-form-card{
-        width: 80%;
+        width: 95%;
         margin: 0rem auto;
+    }
+    .landing-from-body{
+        padding: 0rem;
     }
 
     .landing-from-body{
         width: 90%;
-        margin: 1rem auto;
+        margin: 2rem auto 0rem;
     }
     .about-us-sec{
         height: auto;
@@ -69,9 +72,22 @@
     .happy-customer-card{
         margin-bottom: 2rem;
     }
+    .list-of-sevices-topcard{
+        margin: 1rem 0rem;
+    }
    
     .list-of-sevices-topcard > div{
         margin: 1rem;
+    }
+    .nav-tabs .nav-link{
+        padding: 0rem;
+    }
+    .room-options{
+        font-size: 14px;
+    }
+    .likesndcomments{
+        flex-direction: row;
+        justify-content: space-around;
     }
 
     .landing-from-head span{
